@@ -9,7 +9,29 @@
 
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/fullName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Full Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/userAge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Your Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailID"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -19,8 +41,27 @@
         android:hint="Email"
         android:inputType="textPersonName" />
 
+
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/userContactNumber"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Contact Number"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/userPassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,14 +71,25 @@
         android:hint="Password"
         android:inputType="textPersonName" />
 
+    <EditText
+        android:id="@+id/confirmUserPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Confirm Your Password"
+        android:inputType="textPersonName" />
+
     <Button
-        android:id="@+id/signUpBtn"
+        android:id="@+id/signInBtn"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:background="@drawable/button_radius"
-        android:text="SIGN UP"
+        android:text="SIGN IN"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
 
@@ -52,3 +104,4 @@
         android:textSize="16dp" />
 
 </LinearLayout>
+
