@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
     package="com.example.bloodbankpakistan">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <dist:module dist:instant="true" />
 
