@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">BloodBankPakistan</string>
+    <string-array name="B_Groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
 </resources>

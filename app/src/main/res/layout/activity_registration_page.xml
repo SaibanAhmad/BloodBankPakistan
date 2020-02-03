@@ -61,6 +61,16 @@
         android:layout_marginTop="15dp" />
 
     <EditText
+        android:id="@+id/userAddress"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
         android:id="@+id/userPassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
